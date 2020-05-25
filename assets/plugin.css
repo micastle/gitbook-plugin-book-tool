@@ -1,6 +1,6 @@
 .book-tool {
     position: fixed;
-    bottom: 125px;
+    bottom: 100px;
     right: 25px;
     background: rgba(0, 0, 0, 0.5);
     width: 50px;
@@ -10,7 +10,6 @@
     -webkit-border-radius: 35px;
     -moz-border-radius: 35px;
     border-radius: 35px;
-    display: none;
 }
 .book-tool i {
     color: #fff;

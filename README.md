@@ -1,6 +1,6 @@
-# Gitbook Back to Top Button Plugin [![npm version](https://badge.fury.io/js/gitbook-plugin-back-to-top-button.svg)](https://badge.fury.io/js/gitbook-plugin-back-to-top-button)
+# Gitbook book-tool Button Plugin 
 
-This plugin adds a back to top button to your GitBook. All three GitBook themes (White, Sepia, Night) are supported.
+This plugin adds a book-tool button to your GitBook. All three GitBook themes (White, Sepia, Night) are supported.
 
 ## Usage
 
@@ -8,13 +8,13 @@ Add the plugin to your `book.json`:
 
 ```
 {
-	"plugins" : [ "back-to-top-button" ]
+	"plugins" : [ "book-tool" ]
 }		
 ```
 
 ## Screenshots
 
-The back to top button in action:
+The book-tool button in action:
 
 ![Screenshots](https://raw.githubusercontent.com/stuebersystems/gitbook-plugin-back-to-top-button/master/screenshots.png)
 

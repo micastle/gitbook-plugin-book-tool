@@ -1,0 +1,55 @@
+.book-tool {
+    position: fixed;
+    bottom: 125px;
+    right: 25px;
+    background: rgba(0, 0, 0, 0.5);
+    width: 50px;
+    height: 50px;
+    display: block;
+    text-decoration: none;
+    -webkit-border-radius: 35px;
+    -moz-border-radius: 35px;
+    border-radius: 35px;
+    display: none;
+}
+.book-tool i {
+    color: #fff;
+    margin: 0;
+    position: relative;
+    left: 15px;
+    top: 14px;
+    font-size: 22px;
+}
+.book-tool:hover {
+    background: rgba(0, 0, 0, 0.9);
+    cursor: pointer;	
+}
+.book.color-theme-1 .book-tool {
+    background: rgba(112, 66, 20, 0.5);
+}
+.book.color-theme-1 .book-tool i {
+    color: #f3eacb;
+}
+.book.color-theme-1 .book-tool:hover {
+    background: rgba(112, 66, 20, 0.9);
+}
+.book.color-theme-2 .book-tool {
+    background: rgba(189, 202, 219, 0.5);
+}
+.book.color-theme-2 .book-tool i {
+    color: #1C1F2B;
+}
+.book.color-theme-2 .book-tool:hover {
+    background: rgba(189, 202, 219, 0.9);
+}
+
+@media only screen 
+  and (min-device-width: 320px) 
+  and (max-device-width: 480px)
+  and (-webkit-min-device-pixel-ratio: 2)
+  and (orientation: portrait) {
+	.book-tool {
+		bottom: 10px;
+		right: 10px;
+	}
+}

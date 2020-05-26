@@ -1,16 +1,70 @@
+.comment-panel {
+    background: rgba(223, 216, 216, 0.9);
+    border-radius: 0;
+    cursor: pointer;	
+    top: 0px;
+    left: 0px;
+    width: auto;
+    height: auto;
+    max-height: 70%;
+    font-size: 14px;
+    text-align: right;
+    white-space: nowrap;
+    -webkit-border-radius: 0;
+    -moz-border-radius: 0;
+    overflow-y: auto;
+    overflow-x: hidden;
+}
+
+.comment-form {
+    background: rgba(223, 216, 216, 0.9);
+    border-radius: 0;
+    cursor: pointer;	
+    top: 0px;
+    left: 0px;
+    width: auto;
+    height: auto;
+    max-height: 70%;
+    font-size: 14px;
+    text-align: center;
+    white-space: nowrap;
+    -webkit-border-radius: 0;
+    -moz-border-radius: 0;
+    overflow-y: auto;
+    overflow-x: hidden;
+}
+
 .book-tool {
+    background: rgba(0, 0, 0, 0.5);
+    border-radius: 35px;
+    display: block;
     position: fixed;
     bottom: 100px;
     right: 25px;
-    background: rgba(0, 0, 0, 0.5);
     width: 50px;
     height: 50px;
-    display: block;
     text-decoration: none;
     -webkit-border-radius: 35px;
     -moz-border-radius: 35px;
-    border-radius: 35px;
 }
+
+.book-tool:hover {
+    background: rgba(223, 216, 216, 0.9);
+    border-radius: 35px;
+    display: block;
+    position: fixed;
+    cursor: pointer;	
+    bottom: 100px;
+    right: 25px;
+    width: 50px;
+    height: 50px;
+    text-decoration: none;
+    -webkit-border-radius: 35px;
+    -moz-border-radius: 35px;
+    overflow-y: auto;
+    overflow-x: hidden;
+}
+
 .book-tool i {
     color: #fff;
     margin: 0;
@@ -19,10 +73,15 @@
     top: 14px;
     font-size: 22px;
 }
-.book-tool:hover {
-    background: rgba(0, 0, 0, 0.9);
-    cursor: pointer;	
+
+.book-tool .book-tool-panel {
+    display: none;
+    text-align: left;
 }
+.book-tool:hover .book-tool-panel {
+    display: block;
+}
+
 .book.color-theme-1 .book-tool {
     background: rgba(112, 66, 20, 0.5);
 }

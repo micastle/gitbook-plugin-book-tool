@@ -80,5 +80,5 @@
     "url": "git+https://github.com/stuebersystems/gitbook-plugin-back-to-top-button.git"
   },
   "scripts": {},
-  "version": "0.2.5"
+  "version": "0.3.5"
 }
